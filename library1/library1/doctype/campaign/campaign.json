@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "creation": "2021-09-04 11:58:42.439431",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "campaign",
+  "campaign_name",
+  "travellocations",
+  "totaldistance",
+  "recompute",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "campaign",
+   "fieldtype": "Section Break",
+   "label": "Campaign "
+  },
+  {
+   "fieldname": "recompute",
+   "fieldtype": "Button",
+   "label": "Recompute"
+  },
+  {
+   "fieldname": "campaign_name",
+   "fieldtype": "Data",
+   "label": "Campaign Name"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "travellocations",
+   "fieldtype": "Table",
+   "label": "Travel Location",
+   "options": "Travel Table"
+  },
+  {
+   "fieldname": "totaldistance",
+   "fieldtype": "Data",
+   "label": "Total Distance"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-05 20:50:00.795671",
+ "modified_by": "Administrator",
+ "module": "Library1",
+ "name": "Campaign",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
